@@ -724,3 +724,159 @@ p.testimonals-card-contents {
 .testimonals-cards-holder:nth-child(2) {
     margin-top: 150px;
 }
+
+@media (max-width:768px){
+    .banner {
+    height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+.navigation {
+    position: unset;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.freequote {
+    padding: 10px;
+    height: auto;
+}
+
+.contactdetails {
+    flex-direction: column;
+    width: 100%;
+    bottom: -30%;
+}
+
+.firstdiv {
+    flex-direction: column;
+}
+
+.info-child {
+    padding: 10px;
+}
+
+.socialcontainer {
+    transform: translate(0%, -50%);
+    right: 0%;
+    top: 50%;
+    width: fit-content;
+}
+
+
+.specilazation {
+    width: 90%;
+    margin: 100px auto;
+    display: block;
+    padding: 0px;
+}
+
+.specilazation .first-section {
+    display: block;
+}
+
+.second-sec {
+    flex-wrap: wrap;
+}
+
+.second-sec>div {
+    width: 100%;
+}
+
+section.about {
+    flex-direction: column;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.about-image-holder {
+    width: 100%;
+}
+
+.about-content-holder {
+    width: 100%;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.views {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.counts {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.pics-header.title-upper-item {
+    flex-direction: column;
+    margin: 20px;
+}
+
+.image-container {
+    width: 90%;
+    margin: auto;
+}
+
+.pics-bottom {
+    margin-bottom: 100px;
+    padding: 100px 10px;
+}
+
+.professional-body {
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.professional-header {
+    flex-direction: column;
+}
+
+.professional-testimonals {
+    flex-direction: column;
+}
+
+.professional-testimonals-rightsec {
+    width: 100%;
+    padding: 0;
+}
+
+.professional-testimonals-leftsec {
+    width: 100%;
+}
+
+.testimonals-cards-holder {
+    width: 100%;
+}
+
+.testimonals-cards-holder:nth-child(2) {
+    margin-top: 0;
+}
+
+img.about-img {
+    border-radius: 10px;
+}
+
+a.brand {
+    height: 0;
+    padding: 30px;
+}
+}
